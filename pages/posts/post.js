@@ -7,8 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    date: "Dec 13 2018",
-    title: "5G频谱划分尘埃落定 智慧城市应用风云再起"
+   posts_key: postsData.postList
   },
 
   /**
@@ -16,22 +15,6 @@ Page({
    */
   onLoad: function (options) {
      //服务器动态获取数据
-     var posts_content =[{
-       date: "Dec 13 2018",
-       title: "5G频谱划分尘埃落定 智慧城市应用风云再起",
-       post_img: "/images/swiper1.jpg",
-       author_img: "/images/logo.jpg",   
-       content: "工业和信息化部2018年12月10日发文表示，5G系统中低频段试验频率使用许可已经发放。下一步，工信部将积极指导各基础电信运营企业做好5G系统试验的基站部署，促进我国5G产业的健康快速发展..."   
-     }, {
-         date: "Dec 13 2018",
-         title: "5G频谱划分尘埃落定 智慧城市应用风云再起",
-         post_img: "/images/swiper1.jpg",
-         author_img: "/images/logo.jpg",   
-         content: "工业和信息化部2018年12月10日发文表示，5G系统中低频段试验频率使用许可已经发放。下一步，工信部将积极指导各基础电信运营企业做好5G系统试验的基站部署，促进我国5G产业的健康快速发展..."   
-     }]
-     this.setData({
-       posts_key: posts_content
-     })
   },
 
   /**
