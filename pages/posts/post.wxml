@@ -1,0 +1,18 @@
+<view>
+  <swiper indicator-dots="true" autoplay="true" interval="2000">
+    <swiper-item>
+      <image src="/images/swiper1.jpg" style="width:100%;height:500rpx"></image>
+    </swiper-item>
+    <swiper-item><image src="/images/swiper2.jpg"></image></swiper-item>
+    <swiper-item><image src="/images/swiper3.jpg"></image></swiper-item>
+  </swiper>
+  <view class="post-content">
+    <view class="post-author-date">
+      <image class="post-author" src="/images/logo.jpg"></image>
+      <text class="post-date">Dec 12 2018</text>
+    </view>
+    <text class="post-title">5G频谱划分尘埃落定 智慧城市应用风云再起</text>
+    <image class="post-image" src="/images/swiper1.jpg"></image>
+    <text class="post-content">工业和信息化部2018年12月10日发文表示，5G系统中低频段试验频率使用许可已经发放。下一步，工信部将积极指导各基础电信运营企业做好5G系统试验的基站部署，促进我国5G产业的健康快速发展...</text>
+  </view>
+</view>
